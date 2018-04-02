@@ -22,7 +22,7 @@ total_cost <- 10
 
 # Create a boolean variable `too_expensive`, set to TRUE if the cost is greater 
 # than $1,000
-too_expensive <- TRUE
+too_expensive <- total_cost > 1000
 
 # Create a variable `max_puppies`, which is the number of puppies you can 
 # afford for $1,000
